@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="pfE3?pk,lsft6F5:whuo">number1</variable></variables><block type="device_button_event" id="Mdq(i{T6|UKV58rr%-h#" x="347" y="-19"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_clear_display" id="v2~^{-){[)f-?=AdniLr"><next><block type="variables_set" id="g_hBiHQ`-`=!$^S)eTL]"><field name="VAR" id="pfE3?pk,lsft6F5:whuo">number1</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="yvr9oL$pZ5)n^Wg#wp]*"><value name="min"><shadow type="math_number" id="(s0`uy[,NOy;7iSK93Y,"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="W^R%*xUgP#iVOd]uO$}f"><field name="NUM">100</field></shadow></value></block></value><next><block type="device_show_number" id="m=L71`FTTSYD@sd}]U,-"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="oa;?9jj2^/o?WUD+dXlD"><field name="VAR" id="pfE3?pk,lsft6F5:whuo">number1</field></block></value></block></next></block></next></block></statement></block><block type="device_button_event" id="f]qVS(SV8qe0%EZO4fl#" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="WQ9Wlv8M#+1Y2JY8/Ys="><value name="text"><shadow type="text" id="`.2|$IQ3,,`(7O7.n1}{"><field name="TEXT">Made By Suhani!</field></shadow></value></block></statement></block><block type="device_button_event" id="=s$^mQZ4xn87PE$:QH4p" x="482" y="224"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="N2}u3OGKE9AX`;(U$Gg9"><value name="TIMES"><shadow type="math_whole_number" id="m]E,}JKA6k3mb@w_?=np"><field name="NUM">1</field></shadow></value><statement name="DO"><block type="device_show_leds" id="[~ZBEEU8gkBB3^xea@Ey"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="M-Paz#6!iNz/wABBP=-V"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . # . # 
+        # . . . # 
+        # # # # #
+        `</field></block></next></block></statement></block></statement></block><block type="input_logo_event" id="Cj))u=ro8E@U|77||GAM" x="-134" y="392"><field name="action">TouchButtonEvent.Touched</field><statement name="HANDLER"><block type="device_show_leds" id="N1o!!u/Muo%FbSS;Ex35"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block><block type="device_gesture_event" id="6Q/J^t{AfW7I!TwC+zuF" x="235" y="440"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="mj2JckUYt]4pU$c4Ds1P"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="/GpECPC2^_ONvVjH6yFa"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="input_logo_event" id="_?U{3casf=04s.B!,,YJ" x="-114" y="787"><field name="action">TouchButtonEvent.Released</field><statement name="HANDLER"><block type="device_show_leds" id="=wJfz1{44euyXjyUG87c"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="FK;D~yLf*?T$MJiR#z2g" disabled="true" x="-20" y="1172"><field name="NAME">Gesture.Shake</field></block></xml>
